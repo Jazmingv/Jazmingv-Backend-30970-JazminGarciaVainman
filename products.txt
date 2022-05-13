@@ -1,0 +1,19 @@
+[
+    {
+        id: 1,
+        name: 'Shouyou Hinata - Diagonal Stripes - Haikyuu Classic T-Shirt',
+        img: 'https://i.ibb.co/2j9XW0y/Haikyuu-Hinata.jpg',
+        price: 29.87
+    },
+    {
+        id: 2,
+        name: 'Tanjiro, Zenitsu & Inosuke Eyes - Kimetsu No Yaiba Classic T-Shirt',
+        img: 'https://i.ibb.co/ZSr80hL/KNY-Trio.jpg',
+        price: 23.84
+    },{
+        id: 3,
+        name: 'Katsuki Bakugo - Boku No Hero Academia Classic T-Shirt',
+        img: 'https://i.ibb.co/n8wcPXr/BNHA-Bakugo.jpg',
+        price: 26.78
+    }
+]
