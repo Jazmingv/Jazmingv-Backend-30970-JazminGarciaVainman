@@ -1,12 +1,11 @@
 const express = require("express");
 
 const app = express();
-const port = 8080;
+const port = 3000;
 const router = express.Router();
 
 const container = require("./container.js");
 
-//descubri que, si seteaba estos use, despues del app.use(router), el router no comprendia el json y el urlencoded. SI o SI antes de la asignacion del router
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
