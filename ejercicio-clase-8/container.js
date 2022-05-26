@@ -12,9 +12,9 @@ class Container {
     return productByID;
   }
 
-  add(body) {
+  add(props) {
     let index = 0;
-    let newProduct = new Product(body.title, body.author, body.price);
+    let newProduct = new Product(props.title, props.author, props.price);
 
     //check if an empty array
     if (productsList.length == 0) {
@@ -31,12 +31,12 @@ class Container {
     return newProduct;
   }
 
-  update(id, body) {
+  update(id, props) {
     productsList.forEach((product) => {
       if (product.id == id) {
-        product.title = body.title;
-        product.author = body.author;
-        product.price = body.price;
+        product.title = props.title;
+        product.author = props.author;
+        product.price = props.price;
       }
     });
 
@@ -53,7 +53,7 @@ class Container {
 class Product {
   constructor(title, author, price) {
     this.title = title;
-    this.author = author
+    this.author = author;
     this.price = price;
     this.id = 0;
   }
