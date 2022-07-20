@@ -1,16 +1,12 @@
 {
-  "dependencies": {
-    "express": "^4.18.1",
-    "nodemon": "^2.0.16"
-  },
-  "name": "30970---backend",
+  "name": "entregable-3",
   "version": "1.0.0",
-  "main": "ejercicio-6.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
