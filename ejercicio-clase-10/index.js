@@ -20,7 +20,7 @@ app.get("/data", (req, res) => {
     res.render("data", { listadoProductos });
 });
 
-app.post("/form", upload.single('thumbnail') , (req, res) => {
+app.post("/form", upload.single('thumbnail'), (req, res) => {
     const { title, author, price } = req.body;
     const { thumbnail } = req.file;
     productsList.push({ title, author, price, thumbnail });
